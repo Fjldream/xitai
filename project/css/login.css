@@ -1,0 +1,150 @@
+html{
+    background: #1E6E9F;
+    font-family: 'PingFang SC';
+}
+
+.login-panel{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    border-radius: 10px;
+    padding: 50px 100px;
+    box-sizing: border-box;
+    animation:myfirst 3s ease;
+    -moz-animation: myfirst 3s ease;
+    -o-animation: myfirst 3s ease;
+    -webkit-animation:myfirst 3s ease;
+}
+.login-u{
+    width:100%;
+    height: 30px;
+    border: 0px;
+    outline:none;
+    border-bottom: 1px solid gray;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.login-u:hover{
+    border-bottom: 2px solid gray;
+}
+.login-u:focus{
+    outline:none;
+    border:0px;
+    border-bottom: 2px solid #1E6E9F;
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+    transition: border 2s ease;
+}
+[for="username"],[for="password"],[for="regusername"],[for="regpassword1"],[for="regpassword2"]{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.btn-con{
+    margin: 0 auto;
+    overflow: hidden;
+}
+#submit,#regbtn{
+    width: 140px;
+    height: 50px;
+    background-color: #1d6999;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 24px;
+    border: none;
+    display: block;
+    float: left;
+}
+#regbtn{
+    margin: 0 auto;
+    float: none;
+}
+.reg{
+    width: 140px;
+    height: 50px;
+    background-color: white;
+    border-radius: 6px;
+    color: #1d6999;
+    font-size: 18px;
+    line-height: 24px;
+    border: none;
+    display: block;
+    float: left;
+    border: 1px solid #1d6999;
+    margin-left: 20px;
+}
+.dis-panel{
+    width: 200px;
+    height: 80px;
+    background: #ffffff;
+    position: fixed;
+    right: -250px;
+    top: 50px;
+    border-radius: 10px;
+    opacity: 0;
+    transition:right 2s ease-in-out;
+    text-align: center;
+    line-height: 80px;
+    font-size: 20px;
+}
+.back{
+    width: 80px;
+    height: 30px;
+    background: white;
+    border-radius: 6px;
+    position: absolute;
+    top: 20px;
+    left: -100px;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 100;
+    opacity: 0;
+}
+.back-con{
+    width: 100px;
+    height: 50px;
+    position: fixed;
+    left: 0;
+    top:0;
+    cursor: pointer;
+    z-index: 1;
+}
+.back-mask{
+    width: 100px;
+    height: 50px;
+    position: fixed;
+    left: 0;
+    top:0;
+    z-index: 2;
+}
+.reg-panel {
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background: white;
+    border: 2px solid #475259;
+    border-radius: 5px;
+    padding: 80px 100px;
+    box-sizing: border-box;
+    display: none;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+.reg-close{
+    width: 20px;
+    height: 20px;
+    background: red;
+    opacity: 0.6;
+    position: absolute;
+    right: 0;
+    top: -20px;
+}

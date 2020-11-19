@@ -1,0 +1,406 @@
+
+#p-header {
+    width: 100%;
+    box-sizing: border-box;
+    height: 720px;
+    padding: 0 310px;
+    background: -webkit-gradient(linear, left top, right top, from(#17567C), color-stop(0.25, #17567C), color-stop(0.5, #17567C), color-stop(0.75, #1E6E9F), to(#17567C));
+
+}
+
+.p-nav {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    width: 141px;
+    height: 20px;
+    display: inline-block;
+    line-height: 80px;
+}
+
+.nav-context {
+    width: 360px;
+    height: 32px;
+    margin-top: 24px;
+}
+
+.nav-context ul {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'PingFang SC';
+
+}
+
+.nav-context ul li {
+    width: 56px;
+    height: 32px;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 32px;
+    color: white;
+}
+
+.nav-context ul li>button {
+    width: 56px;
+    height: 32px;
+    background-color: #fff;
+    color: #1D6A99;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.headbody {
+    width: 100%;
+    height: 640px;
+    position: relative;
+    overflow: hidden;
+}
+
+.headbody h1 {
+    height: 42px;
+    font-family: 'PingFangSemi';
+    font-size: 42px;
+    color: white;
+    line-height: 42px;
+    margin: 174px 0 29px 0;
+}
+
+.headbody h2 {
+    font-family: 'PingFang SC';
+    font-size: 38px;
+    color: #fff;
+    margin-bottom: 29px;
+    line-height: 38px;
+    height: 38px;
+
+}
+
+.headbody span {
+    font-family: 'PingFang SC';
+    font-size: 20px;
+    line-height: 20px;
+    height: 20px;
+    color: rgba(255, 255, 255, 0.65);
+    display: block;
+    margin-bottom: 48px;
+}
+
+.headbody button {
+    width: 140px;
+    height: 50px;
+    border: none;
+    border-radius: 6px;
+    color: #4B87AD;
+    font-size: 18px;
+    font-family: 'PingFangSemi';
+    cursor: pointer;
+}
+
+.headimg {
+    width: 620px;
+    height: 358px;
+    position: absolute;
+    top: 128px;
+    right: 0;
+}
+
+/* main */
+.p-main {
+    width: 100%;
+    height: 720px;
+    padding: 99px 360px 77px 360px;
+    box-sizing: border-box;
+}
+
+.p-main h1 {
+    width: 100%;
+    height: 48px;
+    font-size: 36px;
+    font-family: 'PingFang SC';
+    line-height: 48px;
+    color: rgba(0, 0, 0, 0.85);
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+.p-main span {
+    width: 100%;
+    height: 21px;
+    display: block;
+    font-family: 'PingFang SC';
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.45);
+    margin-bottom: 81px;
+}
+
+.main-card {
+    width: 100%;
+    height: 380px;
+}
+
+.main-card ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-card ul li {
+    width: 320px;
+    height: 380px;
+    box-shadow: 0px 6px 16px 0px rgba(29, 105, 153, 0.2);
+    padding: 60px 80px;
+    box-sizing: border-box;
+}
+
+.card-img {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    background-color: #DCEBF5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-card ul li>h1 {
+    width: 100%;
+    height: 32px;
+    text-align: center;
+    font-family: 'PingFang SC';
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 34px;
+    margin-bottom: 12px;
+}
+
+.p-main2 {
+    height: auto;
+    padding-left: 310px;
+    padding-right: 310px;
+}
+
+.manage-card {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+.manage-card h1 {
+    margin-top: 180px;
+    text-align: left !important;
+    font-family: 'PingFang SC';
+    font-size: 36px;
+    line-height: 48px;
+    height: 48px;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.manage-card p {
+    width: 480px;
+    font-family: 'PingFang SC';
+    font-size: 18px;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.manage-card-image {
+    width: 555px;
+    height: 405px;
+    position: absolute;
+    top: 97px;
+    right: 0;
+    z-index: -1;
+}
+
+.card2-text {
+    width: 480px;
+    height: 168px;
+    font-family: 'PingFang SC';
+    position: absolute;
+    top: 215px;
+    right: 0;
+}
+
+.card2-text h1 {
+    height: 48px;
+    font-size: 36px;
+    line-height: 48px;
+    color: rgba(0, 0, 0, 0.85);
+    margin-bottom: 23px;
+    margin-top: 0 !important;
+}
+
+.card2-text p {
+    font-size: 18px;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.manage-card-image1 {
+    width: 555px;
+    height: 405px;
+    position: absolute;
+    top: 97px;
+    left: 0;
+    z-index: -1;
+}
+
+.main-after {
+    width: 100%;
+    height: 300px;
+    font-family: 'PingFang SC';
+    background-color: #F0F2F5;
+    text-align: center;
+    overflow: hidden;
+}
+
+.main-after>h1 {
+    height: 40px;
+    font-size: 30px;
+    line-height: 40px;
+    color: rgba(0, 0, 0, 0.85);
+    margin-bottom: 12px;
+    margin-top: 70px;
+}
+
+.main-after>span {
+    height: 21px;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.45);
+    display: block;
+    margin-bottom: 54px;
+
+}
+
+.main-after>button {
+    width: 140px;
+    height: 50px;
+    background-color: #1d6999;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+/* 页面底部 */
+.p-footer {
+    width: 100%;
+    height: 320px;
+    box-sizing: border-box;
+    padding: 40px 475px 0 310px;
+    background-color: #525E66;
+    font-family: 'PingFang SC';
+    overflow: hidden;
+    position: relative;
+}
+
+.footer-left {
+    width: 400px;
+    height: 120px;
+}
+
+.footer-left>p {
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.45);
+    opacity: 0.8;
+    margin-top: 20px;
+}
+
+.footer-medi {
+    width: 72px;
+    height: 169px;
+    position: absolute;
+    right: 750px;
+    top: 40px;
+
+}
+
+.footer-medi>li {
+    color: rgba(255, 255, 255, 0.45);
+    opacity: 0.8;
+    height: 19px;
+    line-height: 19px;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.footer-medi>li:nth-child(1) {
+    color: #fff;
+    opacity: 0.85;
+    height: 24px;
+    line-height: 24px;
+    font-size: 18px;
+    margin-bottom: 21px;
+}
+
+.footer-right {
+    width: 155px;
+    height: 130px;
+    position: absolute;
+    right: 475px;
+    top: 40px;
+}
+
+.footer-right>li {
+    color: rgba(255, 255, 255, 0.45);
+    opacity: 0.8;
+    height: 19px;
+    line-height: 19px;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.footer-right>li:nth-child(1) {
+    color: #fff;
+    opacity: 0.85;
+    height: 24px;
+    line-height: 24px;
+    font-size: 18px;
+    margin-bottom: 21px;
+}
+
+.icon-weibiaoti-:before {
+    margin-right: 3px;
+}
+
+.icon-weizhi:before {
+    margin-right: 3px;
+}
+
+.icon-youjian:before {
+    margin-right: 3px;
+}
+
+#footer {
+    width: 100%;
+    height: 60px;
+    font-family: 'PingFang SC';
+    font-size: 14px;
+    line-height: 60px;
+    color: rgba(255, 255, 255, 0.45);
+    text-align: center;
+    background-color: #475259;
+
+}
+@media screen and (max-width: 1400px) {
+    .headimg{
+        display: none;
+    }
+    .headbody{
+        text-align: center;
+    }
+    .main-card ul li:last-child{
+        display: none;
+    }
+}

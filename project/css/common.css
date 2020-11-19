@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+h1,
+h2 {
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'PingFang SC';
+    src: url('../font/PingFang\ Regular.ttf');
+}
+
+@font-face {
+    font-family: 'PingFangSemi';
+    src: url('../font/PingFang\ SC\ semi.ttf');
+}
+
+@font-face {
+    font-family: 'PingFangMedium';
+    src: url('../font/PingFang\ Medium.ttf');
+}
+@keyframes myfirst {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes second {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes myfirst {
+         from{
+             opacity: 0;
+         }
+         to{
+             opacity: 1;
+         }
+ }
+@-o-keyframes myfirst {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@-webkit-keyframes myfirst {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@-moz-keyframes second {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@-o-keyframes second {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@-webkit-keyframes second {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
